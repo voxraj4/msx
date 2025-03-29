@@ -15,7 +15,7 @@
         { 
             "title": "Stremio",
             "image": "https://voxraj4.github.io/msx/stremio-logo.jpg", 
-            "action": "link:https://app.strem.io", 
+            "action": "link:https://web.stremio.com", 
             "selection": {
                 "important": true,
                 "action": "update:content:description", 
