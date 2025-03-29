@@ -1,5 +1,28 @@
-{
-  "name": "Stremio Integration",
-  "version": "1.0.0",
-  "parameter": "menu:https://voxraj4.github.io/msx-stremio/menu.json"
+{ 
+    "name": "My Custom Media Station",
+    "headline": "My Media Station",
+    "extension": "CustomStation",
+    "version": "1.0.0",
+    "parameter": "content:https://YOUR-USERNAME.github.io/msx/start.json",
+    "note": "For this service, Media Station X 0.1.120 or higher is needed",
+    "action": "[settings:validate_links:0|home]",
+    "template": {
+        "type": "separate",
+        "layout": "0,0,2,3",
+        "color": "msx-glass"
+    },
+    "items": [ 
+        { 
+            "title": "Stremio",
+            "image": "https://voxraj4.github.io/msx/stremio-logo.jpg", 
+            "action": "link:https://app.strem.io/shell-v4.4/?streamingServer=http%3A%2F%2F127.0.0.1%3A11470", 
+            "selection": {
+                "important": true,
+                "action": "update:content:description", 
+                "data": {
+                    "text": ["{txt:msx-white: Stremio} — All your streaming content in one place"] 
+                }
+            }
+        }
+    ]
 }
