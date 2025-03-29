@@ -4,14 +4,14 @@
     {
       "title": "Change Streaming Server",
       "description": "Update the Stremio streaming server address",
-      "image": "https://rajat-ankel.github.io/msx/images/server.png",
+      "image": "https://voxraj4.github.io/msx/images/server.png",
       "action": "input:text:Enter server address:http://127.0.0.1:11470:updateServer"
     },
     {
       "title": "Back to Main Menu",
       "description": "Return to the main menu",
-      "image": "https://rajat-ankel.github.io/msx/images/back.png",
-      "action": "menu:https://rajat-ankel.github.io/msx/menu.json"
+      "image": "https://voxraj4.github.io/msx/images/back.png",
+      "action": "menu:https://voxraj4.github.io/msx/menu.json"
     }
   ]
 }
