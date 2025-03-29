@@ -3,7 +3,7 @@
     "headline": "My Media Station",
     "extension": "CustomStation",
     "version": "1.0.0",
-    "parameter": "content:https://YOUR-USERNAME.github.io/msx/start.json",
+    "parameter": "content:https://voxraj4.github.io/msx/start.json",
     "note": "For this service, Media Station X 0.1.120 or higher is needed",
     "action": "[settings:validate_links:0|home]",
     "template": {
