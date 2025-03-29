@@ -23,6 +23,18 @@
                     "text": ["{txt:msx-white: Stremio} — All your streaming content in one place"] 
                 }
             }
+        },
+        { 
+            "title": "CIneby",
+            "image": "https://voxraj4.github.io/msx/stremio-logo.jpg", 
+            "action": "link:https://www.cineby.app/", 
+            "selection": {
+                "important": true,
+                "action": "update:content:description", 
+                "data": {
+                    "text": ["{txt:msx-white: Stremio} — All your streaming content in one place"] 
+                }
+            }
         }
     ]
 }
