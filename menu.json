@@ -4,14 +4,14 @@
     {
       "title": "Launch Stremio",
       "description": "Open Stremio Media Center",
-      "image": "https://rajat-ankel.github.io/msx-stremio/images/stremio-logo.png",
+      "image": "https://rajat-ankel.github.io/msx/images/stremio-logo.png",
       "action": "external:https://app.strem.io/shell-v4.4/?streamingServer=http%3A%2F%2F127.0.0.1%3A11470"
     },
     {
       "title": "Settings",
       "description": "Configure Stremio Integration",
-      "image": "https://rajat-ankel.github.io/msx-stremio/images/settings.png",
-      "action": "menu:https://rajat-ankel.github.io/msx-stremio/settings.json"
+      "image": "https://rajat-ankel.github.io/msx/images/settings.png",
+      "action": "menu:https://rajat-ankel.github.io/msx/settings.json"
     }
   ]
 }
