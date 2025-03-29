@@ -13,9 +13,22 @@
     },
     "items": [ 
         { 
-            "title": "Stremio",
+            "title": "Stremio Web",
             "image": "https://voxraj4.github.io/msx/stremio-logo.jpg", 
             "action": "link:https://web.stremio.com", 
+            "selection": {
+                "important": true,
+                "action": "update:content:description", 
+                "data": {
+                    "text": ["{txt:msx-white: Stremio} — All your streaming content in one place"] 
+                }
+            }
+        },
+        
+        { 
+            "title": "Stremio App",
+            "image": "https://voxraj4.github.io/msx/stremio-logo.jpg", 
+            "action": "link:https://app.strem.io/", 
             "selection": {
                 "important": true,
                 "action": "update:content:description", 
