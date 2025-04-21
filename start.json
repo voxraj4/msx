@@ -25,9 +25,9 @@
             }
         },
         { 
-            "title": "CIneby",
+            "title": "MOVIES",
             "image": "https://voxraj4.github.io/msx/stremio-logo.jpg", 
-            "action": "link:https://www.cineby.app/", 
+            "action": "link:https://ww-fmovies.com/home/", 
             "selection": {
                 "important": true,
                 "action": "update:content:description", 
