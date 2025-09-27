@@ -25,9 +25,9 @@
             }
         },
         { 
-            "title": "MOVIES",
+            "title": "NetMirror",
             "image": "https://voxraj4.github.io/msx/stremio-logo.jpg", 
-            "action": "link:https://ww-fmovies.com/home/", 
+            "action": "link:https://net2025.cc/home", 
             "selection": {
                 "important": true,
                 "action": "update:content:description", 
